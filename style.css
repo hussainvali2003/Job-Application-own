@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-sizing:border-box;
+}
+body{
+    background-color: grey;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+.apply-form{
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    margin-top: 50px;
+    box-shadow: 4px 3px 5px  rgba(1, 1, 1,0.1);
+    border-radius: 10px;
+}
+.web{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.first-line{
+    margin-bottom: 20px;
+}
+
+.form-container{
+
+    display: flex;
+    top: 10px;
+    max-width: 600px;
+    flex-wrap: wrap;
+
+}
+.form-control{
+    width: 280px;
+    margin: 5px;
+}
+
+input,select{
+    width: 90%;
+    padding: 7px 5px;
+    box-radius: 4%;
+    font-size: 15px;
+}
+ 
+label{
+    font-size: 15px;
+    font-weight: 700;
+}
+ 
+ #jobrole{
+    width: 557px;
+}
+#option1{
+    font-weight: 300;
+}
+select{
+    width: 263px;
+    height: 35.14px;
+}
+  .cv{
+    border: 0.5px solid rgba(1, 1, 1,0.5);
+     width: 265px;
+}  
+
+@media (max-width: 557px) {
+    #jobrole{
+        width: 400px;
+}
+}
+
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+     
+}
+button{
+    padding: 8px 5px;
+    background-color: red;
+    color: white;
+    transition: 0.3s ease-in;
+    border-radius: 8%;
+    border: 1px solid transparent;
+}
+
+button:hover{
+    transition: 0.3s ease-out;
+    background-color:white;
+    border: 1px solid red;
+    color: black;
+
+}
+ 
+button:active{
+    background-color: green;
+    border: 1px solid white;
+    color: white;
+}
+
+input:hover{
+    border: 1px solid red;
+}
